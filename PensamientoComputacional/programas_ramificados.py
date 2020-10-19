@@ -1,10 +1,13 @@
-num_1 = int(input('Escoge un entero: '))
-num_2 = int(input('Escoge otro entero: '))
+nombre_1 = input('Escribe el nombre número 1: ')
+edad_1 = int(input('Cuál es la edad del nombre número 1: '))
 
-if num_1 > num_2:
-    print('El primer número es MAYOR que el segundo!!')
-elif num_1 < num_2:
-    print('El primer número es MENOR que el segundo!!')
+nombre_2 = input('Escribe el nombre número 2: ')
+edad_2 = int(input('Cuál es la edad del nombre número 2: '))
+
+if edad_1 > edad_2:
+    print(f'{nombre_1} " es mayor que " {nombre_2}')
+elif edad_1 < edad_2:
+    print(f'{nombre_2} " es mayor que " {nombre_1}')
 else:
-    print('El primer número es IGUAL que el segundo!!')
+    print(f'{nombre_1} " y " {nombre_2} " tienen la misma edad"')
     
