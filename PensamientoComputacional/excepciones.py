@@ -7,7 +7,7 @@ def run():
             return lista
 
     lista = list(range(10))
-    divisor = 0
+    divisor = 
 
     print(divide_elementos_de_lista(lista, divisor))
 
